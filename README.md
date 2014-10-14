@@ -2,7 +2,9 @@ BillBoard-Slider
 ================
 
 #### A slider that uses CSS3 and jQuery to make a billboard flipper slider 
-
+***
+  # Demo : http://tareqhassan.me/BillBoard/Demo/BillBoardSlider.htm
+***
 ###### Usage:
 
 The HTML:
