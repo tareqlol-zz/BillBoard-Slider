@@ -4,6 +4,23 @@ BillBoard-Slider
 #### A slider that uses CSS3 and jQuery to make a billboard flipper slider 
 
 ###### Usage:
+
+The HTML:
+```html
+   <div class="billboard-rotater">
+        <ul class="imgs">
+            <li>
+                <img src="1.jpg" /></li>
+            <li>
+                <img src="2.jpg" /></li>
+            <li>
+                <img src="3.jpg" /></li>
+            <li>
+                <img src="4.jpg" /></li>
+        </ul>
+    </div>
+```
+The JavaScript:
 ```javascript
    $('.billboard-rotater').billboard({
     colWidth: 30, // For Speed and optimizations ** set '100%' to make it as one cube.
@@ -14,5 +31,4 @@ BillBoard-Slider
     billCallBack: function () { }// Call back function runs right after the plugin finishes constructing itself
    });
  ```  
-   
    
